@@ -1,0 +1,227 @@
+/* container */
+.container {
+    position: absolute;
+    background-image: url("img/1.jpg");
+    background-size: cover;
+    height: 100vh;
+    left: 0;
+    width: 100%;
+    top: 0;
+    
+    position: fixed;
+    filter: blur(5px);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+/* Example usage */
+h1 {
+  font-family: 'Orbitron', sans-serif;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Orbitron', sans-serif;
+  width: 100%;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* part_logo */
+.logo img{
+  width: 200px;
+}
+.top {
+display: flex;
+margin-bottom: 34px;
+padding: 23px;
+height: 75px;
+width: 100%;
+top: 23px;
+margin-bottom: 23px;
+
+}
+.top ul {
+ /* position: fixed; */
+  margin-left: 46%;
+
+  background-color: rgba(6, 8, 21, 0.55);
+  height: 44px;
+  box-shadow: 2px 2px 10px 2px rgb(112, 112, 117);
+  margin-top: 9px;
+  width: 362px;
+  border-radius: 30px;
+  display: flex;
+}
+
+.top ul h1{
+  color: rgb(249, 246, 243);
+  padding-left: 40px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+  display: inline-block;
+ margin-top: 5px;
+  text-decoration: none;
+  font-size: 25px;
+  transition-duration: 0.1s;
+ 
+  cursor: pointer;
+}
+.top ul h1:hover{
+  text-decoration: underline;
+  color: #ff9900;
+transform: scale(23px);
+
+}
+.ul img{
+  width: 180px;
+  height: 100px;
+  cursor: pointer;
+margin-top: -30px;
+  margin-left: 20px;
+  transition-duration:1s;
+transition: 0.5s;
+}
+.ul img:hover{
+  transform: scale(1.50);
+ /* <!-- part yin********************************--> */
+}
+.h1_top{
+  display: flex;
+}
+
+
+/* ************************** */
+/* .next_top p{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 23px;
+}
+h5{
+
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+   margin-left: 60%;
+   color: rgb(17, 255, 0);
+} */
+.img{
+    display: flex;
+    /* margin-left: 24px; */
+    margin-right: 33px;
+}
+.img_top{
+  display: flex;
+}
+.img_top img{
+  padding: 53px;
+width: 500px;
+height: 750px;
+}
+.yin_writer{
+  color: white;
+
+  width: 100%;
+  
+}
+.yin_writer h1{
+  text-align: center;
+  color: rgb(255, 115, 0);
+  padding: 23px;
+}
+.yin_writer img{
+  width: 240px;
+  height: 230px;
+  border-radius: 50%;
+ 
+}
+.one {
+margin-top: -34%;
+}
+
+.yin_writer img{
+  
+
+    animation: spin 5s linear infinite;
+    transition: all 0.5s ease-in-out;
+}
+.yin_writer img:hover{
+    transform: rotate(360deg);
+  }
+@keyframes spin{
+    0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.img2 img{
+    margin-top: 54px;
+}
+.img3 img{
+    margin-top: 84px;
+}
+.img img{
+  width: 500px;
+  transition: 0.5s;
+}
+.img img:hover{
+transform: translateY(-23px);
+}
+
+
+/* <!-- part yin********************************--> */
+.fighter_esmerada{
+
+  color: white;
+  font-size: 20px;
+  display: flex;
+}
+.writer{
+  text-align: center;
+
+}
+.writer_ying{
+  margin-top: 23px;
+margin-right: 23px;
+}
+.esmerada_skill{
+  margin-left: 74px;
+  margin-bottom: 20px;
+}
+.esmerada_skill img{
+  margin-top: 23px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-left: 34px;
+}
+
+.about_yin{
+  text-align: center;
+}
+.img img{
+  width: 350px;
+  margin-left: 30px;
+}
+.fighter_esmerada h1{
+  color: #e4740b;
+}
+.about_yin p{
+  color: rgb(8, 133, 26);
+}
+.start_game h1{
+  color: rgb(233, 226, 20);
+  font-size: 60px;
+  text-align: center;
+}
+.fighter_esmerada p{
+  font-size: 20px;
+ 
+}

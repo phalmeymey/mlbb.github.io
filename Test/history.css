@@ -1,0 +1,570 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+   /* background-image: url(https://i.pinimg.com/736x/62/00/af/6200afc80591000d8ded5f6d65a1abbe.jpg);
+    background-size: cover; */
+    height: 110vh;
+    width: 100%;
+transition: all 0.5s ;
+background-color: rgba(0, 0, 0, 0.929);
+
+}
+.logo1 img{
+  width: 200px;
+  /* height: 100px; */
+  /* background-color: antiquewhite; */
+  /* margin-top: -50px; */
+  z-index: 20;
+  /* /* position: fixed; */
+  /* top:-50px;  */
+  margin-top: -50px;
+  padding: 20px;
+}
+.letter-title{
+   
+    display: flex;
+    justify-content: center;
+ position: relative;
+  top:40%;
+  left: 0;
+}
+.history-title{
+    /* color: rgb(52, 12, 173); */
+    color:aqua ;
+  margin-top: -30px;
+    text-align: center;
+    /* background-color:rgba(100, 148, 237, 0.486); */
+  position: absolute;
+  top:45%;
+ left: 40%;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: bold;
+
+
+}
+.menu_up{
+  position: fixed;
+  left: 90%;
+  top:27px;
+  z-index: 20;
+}
+.menu_up i{
+  font-size: 30px;
+  color: gray;
+  padding: 5px;
+  box-shadow: 0px 0px 5px white;
+  margin-top: 5px;
+}
+.history-title span{
+    color: gold;
+    font-weight: bold;
+    /* border: 2px solid aquamarine; */
+    padding: 10px;
+    border-radius: 30px;
+    font-family:sans-serif;
+    box-shadow: 0px 0px 800px aquamarine;
+   
+}
+.history-title .s1{
+  color: gold;
+  font-weight: bold;
+  border: none;
+  /* padding: 10px;
+  /* border-radius: 30px; */
+  font-family:fantasy;
+  font-size: 50px;
+  box-shadow: none;
+}
+
+
+/* .none_bg{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+   background-color: plum;
+   
+  background-color: aqua;
+} */
+
+
+/* .none_bg img{
+ 
+    width: 900px;
+   margin-left: 50%;
+  margin-top: -50px; 
+display: flex;
+justify-content: center; 
+align-items: center; 
+   animation: spin 5s linear infinite;
+ 
+
+}  */
+
+
+/* .none_bg img:hover{
+    transform: rotate(360deg);
+  }
+  @keyframes spin{
+    0%{
+      transform: rotate(0deg);
+    }
+  
+     100%{
+      transform: rotate(360deg);
+    }
+  }  */
+  .bg_animation{
+    /* background-color: aqua; */
+    animation: spin 5s linear infinite;
+    position: relative;
+    margin-top: -290px;
+   
+}
+
+
+
+.bg_animation img:hover{
+    transform: rotate(360deg);
+  }
+  @keyframes spin{
+    0%{
+      transform: rotate(0deg);
+    }
+  
+     100%{
+      transform: rotate(360deg);
+    }
+  } 
+  
+ 
+  .history_part{
+    background-image: url(https://i.pinimg.com/736x/8b/96/c8/8b96c8d79567bc5d477a76b0e6780781.jpg);
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment:fixed;
+    top:0;
+    left: 0;
+    filter: blur(0px);
+  /* border: 5px solid blue; */
+  box-shadow: 0px 0px 50px greenyellow;
+position: relative;
+  border: 1px solid rgb(154, 194, 94);
+    
+}
+.history_part::before{
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+.x2{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+  background-color:rgba(0, 255, 255, 0.329);
+  padding: 50px;
+  box-shadow: 0px 0px 50px aquamarine;
+}
+.sticker img{
+width: 90%;
+height: 400px;
+transition: all 0.5s ease-in-out;
+
+}
+
+.page1{
+  position: relative;
+  top: 50%;
+  left: 0;
+  /* transform: translate(-50%, -50%); */
+  /* text-align: center; */
+  font-size: 30px;
+  width: 550px;
+  color:white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  /* text-transform: uppercase;
+  background-color: #404040;
+  letter-spacing: 12px; */
+  padding: 15px;
+ 
+}
+.p1 span{
+font-size: 60px;
+color: gold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+box-shadow:0px 0px 10px aqua ;
+}
+
+
+.icon{
+  
+  position: relative;
+  left: 43%;
+  top: 0;
+  
+
+}
+.icon button{
+  border-radius: 20px;
+  background-color: aquamarine;
+  font-size: 20px;
+  padding: 7px;
+  width: 200px;
+  text-align: center;
+  color:rgb(53, 178, 145);
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position:absolute;
+ top:-260px;
+ left: 0;
+ border: none;
+ transition: all 0.3s;
+ /* box-shadow: 0px 0px 10px gold; */
+}
+.icon button:hover{
+  background-color: yellow;
+}
+.icon button:active{
+  background-color: orange;
+  transform: scale(0.9);
+}
+  
+.top{
+  margin-top: -55%;
+  transition: all 0.5s ease;
+  display: block;
+}
+/* .nonetop{
+  margin-top: 50%;
+} */
+.back{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ z-index: 20;
+
+}
+.back .btn_back{
+  color: white;
+  background-color:rgba(255, 217, 0, 0.693);
+  height: 50px;
+  border: none;
+  padding: 10px 20px;
+  width: 200px;
+  font-family:fantasy;
+  box-shadow: 0px 0px 10px green;
+  cursor: pointer;
+  /* position: absolute; */
+  top: 0;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+/* .btn .btn_back:hover{
+  background-color:green ;
+}
+.bacxk .btn_back:active{
+  background-color: darkgreen;
+  transform: scale(0.9);
+} */
+ 
+.gamePlay{
+  background-color: black;
+  height: 130vh;
+display: flex;
+justify-content: space-between;
+  align-items: center;
+gap: 20%;
+position: relative;
+
+
+  /* overflow: hidden; */
+}
+.game{
+  margin-top: 10%;
+  margin-left: 60px;
+}
+
+.game img{
+  width: 450px;
+  height: 450px;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0px 0px 50px hotpink;
+  border-radius: 50%;
+margin-left: 10px;
+animation: spin 5s linear infinite;
+
+}
+.btn_information{
+  color: white;
+  background-color:rgb(19, 175, 123);
+  height: 50px;
+  border: none;
+  padding: 10px 20px;
+  width: 200px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* box-shadow: 0px 0px 10px green; */
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.5s;
+  margin-left: 110%;
+  margin-top: 10%;
+  border-radius: 50px;
+  transition: all 0.5s ease-in-out;
+}
+.btn_information:hover{
+  background-color: gold;
+  
+}
+.btn_information:active{
+  background-color: aquamarine;
+  transform: scale(0.9);
+}
+.gamePlay_page p{
+  color: azure;
+  font-size: 20px;
+/* margin-top:-20%; */
+}
+.gamePlay_page p span{
+  color: gold;
+  font-family: fantasy;
+  font-size: 70px;
+  
+}
+.rank_classic{
+  background-color:black;
+  height: 160vh;
+  box-shadow: 0px 0px 50px hotpink;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  /* display: flex;
+  gap: 30px; */
+  padding: 20px;
+  position: sticky;
+
+
+}
+/* javascript  part */
+.upp{
+  margin-top: -55%;
+  transition: all 0.5s ease;
+  /* display: block; */
+}
+/* javascript  part */
+.close_Menu{
+  background-color: black;
+  box-shadow: 0px 0px 10px hotpink;
+  padding: 30px;
+  position: absolute;
+  width: 100%;
+  top:0;
+  left: -100%;
+  height: 120vh;
+  transition: all 0.5s;
+  z-index: 20;
+  
+ 
+}
+
+.close_Menu button{
+  padding: 6px;
+  width: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(224, 68, 68);
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s;
+ 
+}
+.img_yaun{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+
+}
+.img_yaun img{
+  width: 350px;
+ height: 300px;
+ margin-right: 80px;
+ /* padding: 20px; */
+ border-radius: 50%;
+ box-shadow: 0px 0px 20px hotpink;
+ transition: all 0.3s;
+ 
+}
+.img_yaun p{
+  color:wheat;
+  font-size: 17px;
+  width: 500px;
+  font-weight: bold;
+  margin-top: 350px;
+  box-shadow: 0px 0px 5px hotpink;
+padding: 40px;
+margin-left: 100px;
+}
+.img_yaun p span{
+  font-size: 30px;
+  color: gold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img_yaun .p2 {
+  color:wheat;
+  font-size: 17px;
+  width: 500px;
+  font-weight: bold;
+  margin-top: 350px;
+  box-shadow: 0px 0px 5px hotpink;
+padding: 40px;
+margin-left: 50px;
+/* white-space: ; */
+margin-left: 150px;
+
+
+}
+.name{
+/* background-color: azure; */
+/* width: 180px; */
+/* margin-top: 50px;
+margin-left: -200px; */
+position: absolute;
+left: 500px;
+top:150px;
+letter-spacing: 20px;
+}
+.name h1{
+  color: aliceblue;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: gold;
+
+}
+
+
+.actives{
+  left: 0;
+}
+.closeit{
+  left: -100%;
+}
+/* javascript  part */
+.rank_classic .show_Menu .menu{
+  padding: 6px;
+  width: 100px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  background-color: rgba(216, 112, 147, 0.614);
+  border: none;
+  border-radius: 10px;
+  
+  transition: all 0.3s;
+}
+.show_Menu .menu:hover{
+  background-color:goldenrod;
+  box-shadow: 0px 0px 5px goldenrod;
+}
+.rank_classic .back2 button{
+  padding: 6px;
+  width: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(223, 194, 24);
+  border: none;
+  border-radius: 10px;
+ 
+  transition: all 0.3s;
+  
+}
+.back2 button:hover{
+  background-color:  rgba(216, 112, 147, 0.614);
+  box-shadow: 0px 0px 8px goldenrod;
+}
+.back2 button:active{
+ transform: scale(0.9);
+}
+
+.two{
+  display: flex;
+  gap:30px;
+  padding: 20px;
+  /* margin-top: 90px; */
+  
+}
+.who{
+  /* text-align: center; */
+  /* padding: 20px; */
+  margin-top: 270px;
+  display: flex;
+  gap: 40px;
+  /* justify-content: space-around;
+   */
+justify-content: center;
+/* background-color:rgba(128, 128, 128, 0.547); */
+background-color: gray;
+padding: 30px;
+border-radius: 10px;
+/* position: sticky;
+bottom: 200px; */
+
+}
+.who h1{
+  color: gold;
+  font-size: 80px;
+  text-align: center;
+  margin-top: -30px;
+  margin-left: -30px;
+  letter-spacing: 10px;
+
+}
+.who p{
+  color: wheat;
+  font-size: 20px;
+  width: 800px;
+
+}
+.who span{
+  color: hotpink;
+  font-size: 20px;
+}
+.grid_x4{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  /* margin-top: 10px; */
+  justify-content: center;
+  padding: 30px;
+  
+}
+.grid_x4 img{
+  width: 300px;
+  height: 300px;
+border-radius: 30px;
+  transition: all 0.5s;
+  box-shadow: 0px 0px 20px hotpink;
+  padding: 20px;
+  margin-top: 40px;
+}
+.grid_x4 img:hover{
+  
+  transform: scale(0.9);
+
+
+}
+.bg_white{
+  background-color: white;
+  height: 30vh;
+  position: relative;
+  position: sticky;
+  margin-top: 130px;
+  position: sticky;
+  bottom: 200px;
+  /* position: relative; */
+  
+}

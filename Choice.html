@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            position: absolute;
+            background-image: url("img/blue.jpg");
+            position: fixed;
+            background-size: cover;
+            height: 100vh;
+            left: 0;
+            width: 100%;
+            top: 0;
+            filter: blur(5px);
+            background-repeat: no-repeat;
+            z-index: -1;
+        }
+
+        .all {
+            margin-top: 100px;
+            margin-left: 10%;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            height: 60vh;
+            position: relative; /* Ensures proper stacking of elements */
+        }
+
+        .Hero, .View, .More {
+            width: 300px;
+            z-index: 1; /* Make sure containers are above the blurred background */
+            background-color: rgba(3, 7, 10, 0.697);
+            padding: 20px;
+            margin-left: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .Hero {
+            background-color: rgba(3, 7, 10, 0.697);
+        }
+
+        .View {
+            
+            background-color: rgba(6, 7, 7, 0.66);
+        }
+
+        .More {
+            background-color: rgba(1, 8, 16, 0.623);
+        }
+
+        button {
+            margin-left: 24px;
+            padding: 12px;
+            width: 80%;
+            border: none;
+            border-radius: 3px;
+            color: antiquewhite;
+            background-color: rgba(136, 255, 0, 0.419);
+            transition: 0.8s;
+            cursor: pointer; /* Ensures it's clear that it's clickable */
+        }
+        button:hover{
+            background-color: blue;
+            /* transform: translateY(-29px);
+            border-radius: 30px; */
+        }
+        p{
+            font-size: 23px;
+        }
+        .all h1 {
+           text-align: center;
+           color: rgb(214, 48, 22);
+            padding-top: 22px;
+            font-size: 24px;
+        }
+
+        p {
+            padding-left: 5px;
+        }
+        .i{
+            display: flex;
+            margin-top: -23px;
+            font-size: 23px;
+        }
+        .i i{
+            margin-left: 23%;
+        }
+        .btn button{
+    margin-left: 30px;
+    margin-top: -20px;
+    width: 10%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+    background-color: rgba(22, 19, 34, 0.51);
+  }
+  .btn button:hover{
+background-color: black;
+  }
+       
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="btn">
+        <a href="index.html"> <button><i  class="fa fa-left-long">back</i></button></a>
+       
+      </div>
+    <div class="all">
+        <div class="Hero">
+            <h1>Hero</h1>
+            <div class="i">
+                <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-brands fa-apple"></i>
+            </div>
+            
+            <p>&nbsp;&nbsp;Mobile Legends: Bang Bang is a popular multiplayer online</p>
+            <a href="hero.html"><button>CLICK HERE</button>
+            </div></a>
+        <div class="View">
+            <h1>History</h1>
+            <div class="i">
+                <i class="fa-brands fa-youtube"></i>
+            <i class="fa-solid fa-check"></i>
+            <i class="fa-solid fa-comment"></i>
+            </div>
+            <p>&nbsp;&nbsp;Start view our game if you want to learn more</p>
+            <a href="history.html"> <button>CLICK HERE</button></a>
+           
+        </div>
+        <div class="More">
+            <h1>Login</h1>
+            <div class="i">
+                <i class="fa-solid fa-gear"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-thumbs-up"></i>
+            </div>
+            <p>&nbsp;&nbsp;Learn more and spend time to play</p>
+           
+            <a href="login.html"> <button>CLICK HERE</button></a>
+        </div>
+    </div>
+</body>
+</html>

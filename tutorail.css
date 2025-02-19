@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ .video{
+
+    position: fixed;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 24px; */
+}
+
+
+
+.menu{
+    position: absolute;
+    top:0;
+    background-color: rgba(130, 51, 134, 0.722);
+
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+
+.menu  img{
+    width: 30px;
+    margin-right: 20px;
+    border-radius: 30%;
+
+}
+
+.menu .back{
+    display: flex;
+    
+}
+.back img{
+    background-color: rgba(174, 0, 255, 0.669);
+    width: 50px;
+    padding: 10px;
+    
+ 
+}
+.back p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+   
+}
+.home{
+ 
+}
+.pic-five{
+    position:absolute;
+    top:9%;
+    /* background-color: rgba(144, 75, 209, 0.587); */
+    border-radius: 10px;
+    margin-top:20px;
+    /* margin-left: 10%; */
+    
+}
+.home img{
+    width: 200px;
+    height: 500px;
+    padding: 30px;
+}
+
+.pf{
+    background-color: rgba(144, 75, 209, 0.587);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 80%;
+    top:11%;
+    width: 20%;
+    height: 100vh;
+    border-radius: 10px;
+    gap:10px;
+    padding: 20px;
+}
+.pf img{
+    width: 50px;
+    height: 50px;
+    /* margin-top: 40px; */
+    
+}
+.pf-flex{
+    display: flex;
+    margin-top: 30px;
+}
+.user_mid{
+    display: flex;
+    flex-direction: column;
+}
+.user_mid .glory{
+    width: 15px;
+    height: 15px;
+    /* margin-top: -50px; */
+    margin-left: 3px;
+}
+.user_mid .mid{
+    width: 20px;
+    height: 20px;
+    /* margin-top: 10px;
+    margin-left: -4px; */
+
+}
+.mids{
+    display: flex;
+}
+.mids p{
+   color:gold;
+}
+.s35{
+   
+}
+
+.s35 .s35_letter{
+    width: 300px;
+    height: 300px;
+    margin-left: -80px;
+   
+}
+.s35 .lobby{
+   width: 100px;
+   height: 40px;
+  position: absolute;
+  top:82%;
+  right: 18px;
+}
+.zoom-pf{
+    position: absolute;
+    top:25%;
+    left: 2%;
+
+}
+.zoom-pf .pf-1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+.zoom-pf2{
+    position: absolute;
+    top:25%;
+    left: 15%;
+
+}
+.zoom-pf2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+.zoom-pf3{
+    position: absolute;
+    top:25%;
+    left: 28%;
+
+}
+.zoom-pf3 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+.zoom-pf4{
+    position: absolute;
+    top:25%;
+    left: 42%;
+}
+.zoom-pf4 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+.zoom-pf5{
+    position: absolute;
+    top:25%;
+    left: 55%;
+}
+.zoom-pf5 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+.rank{
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    /* z-index: 20; */
+}
+.rank img{
+    width: 140px;
+    height: 140px;
+}
+.rank2{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    /* z-index: 20; */
+}
+.rank2 img{
+    width: 140px;
+    height: 140px;
+}
+.rank3{
+    position: absolute;
+    top: 45%;
+    left: 29%;
+    /* z-index: 20; */
+}
+.rank3 img{
+    width: 140px;
+    height: 140px;
+}
+.rank4{
+    position: absolute;
+    top: 45%;
+    left: 42%;
+    /* z-index: 20; */
+}
+.rank4 img{
+    width: 140px;
+    height: 140px;
+}
+.rank5{
+    position: absolute;
+    top: 45%;
+    left: 56%;
+    /* z-index: 20; */
+}
+.rank5 img{
+    width: 140px;
+    height: 140px;
+}
+.start{
+    position: absolute;
+    top:50%;
+    left: 20%;
+}
+.start img{
+    width: 700px;
+}
